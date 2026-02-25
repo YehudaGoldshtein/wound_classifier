@@ -18,6 +18,9 @@ Implementation details, algorithms, and technical approaches.
 ### [Issues & Debugging](docs/issues.md)
 Known issues, debugging notes, and troubleshooting guides.
 
+### [Data](docs/data.md)
+Dataset sources, selection criteria, and data pipeline documentation.
+
 ### [Changelog](docs/changelog.md)
 Version history and notable changes.
 

@@ -11,11 +11,16 @@ dist/
 build/
 
 # Data & Models (large files)
-data/train/*
-data/val/*
+data/raw/**/*
+data/processed/**/*
 checkpoints/*.pth
-!data/train/.gitkeep
-!data/val/.gitkeep
+checkpoints/*.pt
+!data/**/.gitkeep
+!data/metadata/sources.csv
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
 
 # IDE
 .idea/
